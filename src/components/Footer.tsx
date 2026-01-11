@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 const Foother = () => {
@@ -43,13 +44,13 @@ const Foother = () => {
 
     <div>
       <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-      <p className="text-sm">New Delhi, India</p>
-      <p className="text-sm">Delhi 10001</p>
-      <p className="text-sm mt-2">Email: info@musicschool.com</p>
-      <p className="text-sm">Phone: (123) 456-7890</p>
+      <p className="text-sm">Multan, Pakistan</p>
+      <p className="text-sm">232, This is wrong address</p>
+      <p className="text-sm mt-2">Email: asshikrani66@gmail.com</p>
+      <p className="text-sm">Phone: +92 333 2244333</p>
     </div>
   </div>
-  <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+  <p className="text-center text-xs pt-8">Made with 🥴 by <Link target="_blank" className="text-green-500" href={'https://ahmadsiddique.vercel.app'}>Ahmad Siddique</Link></p>
 </footer>
   )
 }
