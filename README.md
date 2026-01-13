@@ -14,6 +14,8 @@ Built with ❤️ for community
 
 > This is  a frontend project
 
+![alt text](music.png)
+
 ## Why I built 
 I was not actually felling confident in using libraries like shadcn and other so practice it and made this.
 
