@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Foother from "@/components/Footer";
-
+import { Toaster } from 'sonner'
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -38,6 +38,7 @@ export default function RootLayout({
           <Foother />
         </div>
         <SpeedInsights />
+        <Toaster />
       </body>
     </html>
   );

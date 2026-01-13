@@ -1,5 +1,6 @@
 "use client"
 
+import { toast } from 'sonner'
 import { BackgroundBeams } from "@/components/ui/background-beams"
 import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input"
 
@@ -20,7 +21,7 @@ const page = () => {
     e.preventDefault();
     
     setTimeout(() => {
-      alert("Message submitted successfully");
+      toast.info("Sorry! we are not accepting submitions currently.")
     }, 1500);
   };
 
